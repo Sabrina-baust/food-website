@@ -1,5 +1,5 @@
 body {
-    font-family: Montderrat;
+    font-family: 'Montderrat', sans-serif;
     margin: 0px;
 }
 
@@ -10,39 +10,62 @@ h1 {
 
 h2 {
     font-size: 30px;
+    color: #707070;
 }
 
 p {
     color: #828282;
-    ;
 }
 
 .orange-color {
-    color: orange;
+
+    color: #FBA24F;
 }
 
-.half-width {
-    width: 40%;
+.top-half-width {
+    width: 45%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
     margin-top: 5%;
 }
 
-.half-width img {
-    width: 100%;
+.top-half-width img {
+    width: 70%;
+    height: 120%;
 }
 
 section {
-    height: 900px;
+    display: flex;
+    height: 500px;
     padding-bottom: 100px;
+    margin-top: 150px;
 }
 
 .link-button {
     text-decoration: none;
     background-image: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
-    padding: 10px 20px;
-    border-radius: 30px;
+    border-radius: 20px;
     color: white;
-    font-weight: 700;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.half-width {
+    width: 50%;
+    float: left;
+    margin-left: 5px;
+    padding-left: 5%;
+    margin-top: 5%;
+}
+
+.half-width img {
+    width: 70%;
+    height: 120%;
+    margin-top: 2%;
+}
+
+.about-area {
+    background-image: url("images/shapes/7.png");
+    background-repeat: no-repeat;
 }
